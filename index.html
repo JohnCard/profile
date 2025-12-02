@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link rel="icon" href="img/dj.png" type="image/png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/sass.css">
+    <link rel="stylesheet" href="style/colors&background_colors.css">
+    <title>Official portfolio</title>
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="check2" viewBox="0 0 16 16">
+            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+        </symbol>
+        <symbol id="circle-half" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+        </symbol>
+        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+            <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
+            <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path>
+        </symbol>
+        <symbol id="sun-fill" viewBox="0 0 16 16">
+            <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
+        </symbol>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="bootstrap" viewBox="0 0 118 94">
+            <title>Bootstrap</title>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+        </symbol>
+        <symbol id="facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+        </symbol>
+        <symbol id="instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+        </symbol>
+    </svg>
+    <!-- navigator -->
+    <nav class="navbar bg-secondary fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="img/navbar_ecommerce_icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Juan Carlos
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://johncard.github.io/EDteam---replica/" target="_blank">EDteam clone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://www.youtube.com/watch?v=LYhuUxPeQl4" target="_blank">Django & Bootstrap project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://www.youtube.com/watch?v=dwlroKgd7Dw" target="_blank">API restcountries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://www.linkedin.com/in/juan-carlos-s%C3%A1nchez-mart%C3%ADnez-ba4026253/" target="_blank">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- presentation card -->
+    <div class="container mt-135px">
+        <div class="card mx-auto" style="max-width: 1100px;">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-4">
+                    <img src="img/profile.jpg" class="img-fluid rounded-start mx-auto mx-md-0 d-block" alt="hugh jackman">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">About me</h5>
+                        <p class="card-text">Hi, I’m Juan Carlos. I’m 23 years old and I’m currently focused on expanding my knowledge in new technologies to strengthen my skills as both a frontend and backend developer.
+                        Although my main specialization is backend development using Django and Django Rest Framework, I am currently dedicating my time to frontend development, especially in interface design with Bootstrap. Right now, I’m focused on mastering JavaScript, and afterward, I plan to complete my learning path with React, and possibly explore Material UI to create more professional user interfaces.
+                        In addition, I’m actively seeking employment and can offer one year of professional experience as a backend developer, mainly working with APIs built in Django.</p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated - right now</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <h1 class="my-5">Technologies section</h1>
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
+                <div class="flip__card">
+                    <div class="card__front">
+                        <img src="img/django_rest_framework.png" alt="django rest_framework" class="img-fluid p-3 img__presentation">
+                        <div class="card__data bg-bone">
+                            <h3>Django rest framework</h3>
+                            <p>Django REST Framework (DRF) is a powerful and flexible toolkit built on top of Django for creating Web APIs. It simplifies tasks like serialization, authentication, <span class="d-none">permissions, and request/response handling. DRF provides class-based views, viewsets, and routers that make building CRUD endpoints fast and organized. It also includes powerful features such as browsable API views, pagination, throttling, filtering, and easy integration with Django’s ORM. Overall, DRF allows developers to create clean, secure, and scalable RESTful APIs with minimal boilerplate.</span>...</p>
+                        </div>
+                    </div>
+                    <div class="card__back bg-bone">
+                        <h4>Backend services</h4>
+                        <ul class="list-group-flush px-0">
+                            <li class="list-group-item">Excel report generation, matplotlib analysis.</li>
+                            <li class="list-group-item">Full class-based CRUD operations.</li>
+                            <li class="list-group-item">Custom logic views built from scratch.</li>
+                            <li class="list-group-item">APIs for specific external servers.</li>
+                            <li class="list-group-item">Command handling for external databases.</li>
+                            <li class="list-group-item">Integration with external database services.</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
+                <div class="flip__card">
+                    <div class="card__front">
+                        <img src="img/bootstrap.png" alt="bootstrap" class="img__presentation bg-AD49E1 w-100">
+                        <div class="card__data bg-7A1CAC color-EBD3F8">
+                            <h3 class="fw-bold">Bootstrap</h3>
+                            <p class="fw-bold">I also recently completed an introductory web design course to improve the styling of my interfaces using basic CSS, as well as the Bootstrap framework, which helps speed up my projects and gives me<span class="d-none">more time to focus on backend structures.</span>...</p>
+                        </div>
+                    </div>
+                    <div class="card__back bg-7A1CAC">
+                        <ul class="list-group-flush fw-bold px-0">
+                            <li class="list-group-item color-EBD3F8">Responsive by default</li>
+                            <li class="list-group-item color-EBD3F8">Fast development</li>
+                            <li class="list-group-item color-EBD3F8">Consistent design</li>
+                            <li class="list-group-item color-EBD3F8">Easy to customize</li>
+                            <li class="list-group-item color-EBD3F8">Large component library</li>
+                            <li class="list-group-item color-EBD3F8">Strong community support</li>
+                            <li class="list-group-item color-EBD3F8">Cross-browser compatibility</li>
+                            <li class="list-group-item color-EBD3F8">Ideal for prototypes</li>
+                            <li class="list-group-item color-EBD3F8">Integrates well with other frameworks</li>
+                            <li class="list-group-item color-EBD3F8">Mobile-first approach</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
+                <div class="flip__card">
+                    <div class="card__front">
+                        <img src="img/css.png" alt="css" class="img__presentation w-100">
+                        <div class="card__data bg-6EACDA text-light">
+                            <h3 class="fw-bold">Intermediate CSS</h3>
+                            <p>I have an intermediate level of creating CSS designs from scratch. For now, I still rely heavily on AI tools to research, solve questions, and guide me through designs that I know I can’t create using only Bootstrap’s <span class="d-none">interfaces or documentation.</span>...</p>
+                        </div>
+                    </div>
+                    <div class="card__back bg-6EACDA text-light">
+                        <ul class="list-group-flush px-0">
+                            <li class="list-group-item">Able to create layouts from scratch using Flexbox and Grid.</li>
+                            <li class="list-group-item">Comfortable building responsive designs for different screen sizes.</li>
+                            <li class="list-group-item">Can style complex components with custom animations and transitions.</li>
+                            <li class="list-group-item">Understands CSS variables, specificity, and inheritance.</li>
+                            <li class="list-group-item">Can work with pseudo-classes and pseudo-elements effectively.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
+                <div class="flip__card">
+                    <div class="card__front">
+                        <img src="img/git.webp" alt="git & github" class="img__presentation w-100">
+                        <div class="card__data bg-dark text-light">
+                            <h3 class="fw-bold">Git & github handling</h3>
+                            <p class="fw-bold">Someone skilled in Git and GitHub can efficiently manage version control, create and organize branches, and collaborate through pull requests and code reviews... <span class="d-none">They can resolve merge conflicts, maintain a clean and understandable commit history, and use GitHub tools like issues, projects, and actions to structure work and automate workflows. They also know how to deploy, back up, and track changes across different environments with confidence.</span></p>
+                        </div>
+                    </div>
+                    <div class="card__back bg-dark text-light">
+                        <ul class="list-group-flush px-0 fw-bold">
+                            <li class="list-group-item">Efficiently manage version control for projects using branches, commits, and merges.</li>
+                            <li class="list-group-item">Handle pull requests, code reviews, and collaboration workflows.</li>
+                            <li class="list-group-item">Resolve merge conflicts and maintain clean commit histories.</li>
+                            <li class="list-group-item">Use GitHub features like issues, projects, and actions to organize and automate work.</li>
+                            <li class="list-group-item">Safely deploy, back up, and track changes across multiple environments.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mb-4">Coming soon</h2>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
+                <div class="flip__card">
+                    <div class="card__front">
+                        <img src="img/javascript.png" alt="JavaScript" class="img__presentation w-100 gray__img">
+                        <div class="card__data">
+                            <h3 class="fw-bold">JavaScript</h3>
+                            <p class="fw-bold">Coming soon...</p>
+                        </div>
+                    </div>
+                    <div class="card__back ">
+                        <h4>...</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
+                <div class="flip__card">
+                    <div class="card__front">
+                        <img src="img/React.jpg" alt="react" class="img__presentation gray__img w-100">
+                        <div class="card__data bg-002455">
+                            <h3 class="fw-bold text-info">React</h3>
+                            <p class="fw-bold text-info">Coming soon...</p>
+                        </div>
+                    </div>
+                    <div class="card__back bg-002455">
+                        <h4 class="text-info">...</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Slideshow</h2>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-dark my-5 shadow-lg">
+            <div class="carousel-inner">
+                <div class="carousel-item bg-body active">
+                    <div class="card w-75 mx-auto border-0 min-h-280 justify-content-center">
+                        <div class="row align-items-xl-center">
+                            <div class="col-xl-4">
+                                <img src="img/django.png" class="img__presentation mx-auto d-block" alt="django">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Django</h5>
+                                    <p class="card-text">Developer with up to one year of experience in Django Rest Framework, able to build and maintain RESTful APIs, define models and serializers for data handling, implement basic authentication and permissions, create custom views and viewsets for CRUD operations, handle query parameters for filtering and pagination, write simple tests for API functionality, and integrate APIs with frontend applications.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated - one day ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item bg-body">
+                    <div class="card w-75 mx-auto border-0 min-h-280 justify-content-center">
+                        <div class="row align-items-xl-center">
+                            <div class="col-xl-4">
+                                <img src="img/git.webp" class="img__presentation d-block mx-auto" alt="git">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Git & github</h5>
+                                    <p class="card-text">I’ve been working with Git and GitHub for about a year and a half. I’m comfortable using Git for version control, managing branches, and resolving merge conflicts. I regularly commit changes, create pull requests, and follow best practices for writing clear commit messages. On GitHub, I collaborate with teams, review pull requests, and track issues for bugs and features. I also manage repositories, forks and clones.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated - one day ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item bg-body">
+                    <div class="card w-75 mx-auto border-0 min-h-280 justify-content-center">
+                        <div class="row align-items-xl-center">
+                            <div class="col-xl-4">
+                                <img src="img/bootstrap.png" class="img__presentation d-block mx-auto" alt="bootstrap">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bootstrap</h5>
+                                    <p class="card-text">After my introductory web development course, I’ve spent about three months working with Bootstrap. I’ve used its grid system to create responsive layouts and incorporated pre-built components like buttons, navbars, and modals. I’ve also customized Bootstrap’s default styles with my own CSS to fit specific design needs. While I’m still learning more about Bootstrap’s JavaScript components.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated - one day ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item bg-body">
+                    <div class="card w-75 mx-auto border-0 min-h-280 justify-content-center">
+                        <div class="row align-items-xl-center">
+                            <div class="col-xl-4">
+                                <img src="img/css.png" class="img__presentation d-block mx-auto" alt="css">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Intermediate CSS</h5>
+                                    <p class="card-text">I’ve been using CSS for about three months after completing an introductory web development course. During this time, I’ve learned the basics of styling web pages, including typography, colors, spacing, and layout techniques like Flexbox and Grid. I’ve also worked with media queries to make designs responsive across different devices. Although I'm still getting comfortable with more advanced concepts.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item bg-body">
+                    <div class="card w-75 mx-auto border-0 min-h-280 justify-content-center">
+                        <div class="row align-items-xl-center">
+                            <div class="col-xl-4">
+                                <img src="img/javascript.png" class="img__presentation gray__img d-block mx-auto" alt="javascript">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">JavaScript</h5>
+                                    <p class="card-text">...</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item bg-body">
+                    <div class="card w-75 mx-auto border-0 min-h-280 justify-content-center">
+                        <div class="row align-items-xl-center">
+                            <div class="col-xl-4">
+                                <img src="img/React.png" class="img__presentation gray__img d-block mx-auto" alt="react">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">React</h5>
+                                    <p class="card-text">...</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <h2>Progress bar section</h2>
+        <div class="row px-5">
+            <div class="card my-3 px-0 mx-auto" style="max-width: 1200px;">
+                <div class="row g-0">
+                    <div class="col-lg-4">
+                        <img src="img/django&bootstrap.png" class="img-fluid h-100" alt="django & bootstrap">
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12">
+                                    <button type="button" class="btn btn-warning w-50 mt-5 fw-bold mx-auto d-block" id="activateAnimation">Activate animation</button>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="progress my-5 shadow-lg" style="height: 40px;">
+                                        <div
+                                            class="progress-bar fw-bold bg-success progress-bar-striped"
+                                            role="progressbar"
+                                            aria-valuenow="75"
+                                            aria-valuemin="0"
+                                            aria-valuemax="100"
+                                            style="width: 90%;"
+                                        >
+                                        Django rest_framework - 90%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="progress my-5 shadow-lg" style="height: 40px;">
+                                        <div
+                                            class="progress-bar bg-456882 fw-bold progress-bar-striped"
+                                            role="progressbar"
+                                            aria-valuenow="75"
+                                            aria-valuemin="0"
+                                            aria-valuemax="100"
+                                            style="width: 60%;"
+                                        >
+                                        CSS - 60%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="progress my-5 shadow-lg" style="height: 40px;">
+                                        <div
+                                            class="progress-bar bg-3B0270 fw-bold progress-bar-striped"
+                                            role="progressbar"
+                                            aria-valuenow="75"
+                                            aria-valuemin="0"
+                                            aria-valuemax="100"
+                                            style="width: 70%;"
+                                        >
+                                        Bootstrap - 70%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="progress my-5 shadow-lg" style="height: 40px;">
+                                        <div
+                                            class="progress-bar bg-black fw-bold progress-bar-striped"
+                                            role="progressbar"
+                                            aria-valuenow="75"
+                                            aria-valuemin="0"
+                                            aria-valuemax="100"
+                                            style="width: 95%;"
+                                        >
+                                        Git & github - 95%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Youtube playlist</h2>
+        <div class="row mt-3 row-gap-3">
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                    <img src="img/django&bootstrap.png" class="card-img-top youtube__img" alt="django&bootstrap">
+                    <div class="card-body">
+                        <h5 class="card-title">Ecommerce</h5>
+                        <p class="card-text">The most comprehensive project so far, involving a frontend client built with Bootstrap, as well as several features that interact with a backend server to handle all the CRUD requests...<span class="d-none">Additionally, it includes an Excel report with graphical data analysis and large datasets grouped into formatted tables</span></p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.youtube.com/watch?v=LYhuUxPeQl4" class="card-link" target="_blank">Card link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                    <img src="img/rest__countries.png" class="card-img-top youtube__img" alt="django_rest_framework">
+                    <div class="card-body">
+                        <h5 class="card-title">Consume external server</h5>
+                        <p class="card-text">In this project, I built a complete API from scratch using Django Rest Framework to consume the external REST Countries service and extract metadata about all the countries in the world.<span class="d-none">The project includes data analysis, export to Excel reports with professional table designs, basic CRUD operations, and customized views.</span></p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.youtube.com/watch?v=dwlroKgd7Dw" class="card-link" target="_blank">Card link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                    <img src="img/bootstrap__project.png" class="card-img-top youtube__img" alt="bootstrap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap project</h5>
+                        <p class="card-text">My most relevant project as a beginner Bootstrap interface designer, fully focused on mastering responsive layouts and creating user-friendly experiences while aiming to achieve the highest...<span class="d-none">level of professional design possible.</span></p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://johncard.github.io/EDteam---replica/" class="card-link" target="_blank">Card link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                    <img src="img/django.png" class="card-img-top youtube__img" alt="django_rest_framework">
+                    <div class="card-body">
+                        <h5 class="card-title">Django</h5>
+                        <p class="card-text">A playlist focused on HTML interfaces built with the Django framework, demonstrating mastery of Python logic combined with proper data manipulation to create repetitive components and HTML structures...<span class="d-none">with a very basic CSS design.</span></p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.youtube.com/playlist?list=PLnLgdcegJMsI08zM_Nw2rMR9Zp27aFbGu" class="card-link" target="_blank">Card link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3">
+                <div class="card">
+                    <img src="img/django_rest_framework.png" class="card-img-top pt-3 youtube__img" alt="django_rest_framework">
+                    <div class="card-body">
+                        <h5 class="card-title">Django rest_framework</h5>
+                        <p class="card-text">A playlist focused on showcasing projects built with Django Rest Framework, highlighting the skills acquired after a full year of professional experience as a backend server developer,<span class="d-none">while openly presenting myself as an expert in the field and in the mastery of Django Rest Framework</span>...</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.youtube.com/playlist?list=PLnLgdcegJMsIGq5bDF6Y0RMRDn7WqajnD" class="card-link" target="_blank">Card link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-5">Form section</h2>
+        <div class="row">
+            <form>
+                <div class="row my-5 px-3 px-md-5 col-md-10 mx-md-auto">
+                    <div class="col-12 mt-3 col-sm-6">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" class="form-control" name="name">
+                    </div>
+                    <div class="col-12 mt-3 col-sm-6">
+                        <label for="lastname" class="form-label">Lastname</label>
+                        <input type="text" id="lastname" class="form-control" name="lastname">
+                    </div>
+                    <div class="col-12 mt-3 col-sm-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" class="form-control" name="email">
+                    </div>
+                    <div class="col-12 mt-3 col-sm-6">
+                        <label for="tel" class="form-label">Contact</label>
+                        <input type="tel" class="form-control" id="tel" name="tel">
+                    </div>
+                    <div class="col-12 mt-3 col-sm-6">
+                        <label for="country" class="form-label">Country</label>
+                        <select name="country" id="country" class="form-select">
+                            <option value="argentina">Argentina</option>
+                            <option value="mexico" selected>Mexico</option>
+                            <option value="chile">Chile</option>
+                            <option value="españa">España</option>
+                            <option value="eu">Estados Unidos</option>
+                        </select>
+                    </div>
+                    <div class="col-12 mt-3 col-sm-6">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea name="message" id="message" class="form-control" rows="4"></textarea>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center mt-3">
+                        <button type="button" class="btn btn-primary col-12">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-secondary">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-light text-decoration-none lh-1" aria-label="Bootstrap">
+                    <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-light">© 2025 Juan Carlos - portfolio</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li>
+                    <a class="text-body-secondary" href="https://www.linkedin.com/in/juan-carlos-s%C3%A1nchez-mart%C3%ADnez-ba4026253/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>

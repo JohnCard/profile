@@ -40,7 +40,7 @@
         </symbol>
     </svg>
     <!-- navigator -->
-    <nav class="navbar bg-secondary fixed-top navbar-expand-lg">
+    <nav class="navbar bg-secondary fixed-top navbar-expand-xl">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">
                 <img src="img/navbar_ecommerce_icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
@@ -55,12 +55,15 @@
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 gap-3">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 gap-1">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="https://johncard.github.io/EDteam---replica/" target="_blank">EDteam clone</a>
+                            <a class="nav-link" aria-current="page" href="https://online-ecommerce-ten.vercel.app/" target="_blank">Bootstrap & Django project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="https://www.youtube.com/watch?v=LYhuUxPeQl4" target="_blank">Django & Bootstrap project</a>
+                            <a class="nav-link" aria-current="page" href="https://www.youtube.com/watch?v=LYhuUxPeQl4" target="_blank">Django & Bootstrap project - tube</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="https://johncard.github.io/EDteam---replica/" target="_blank">EDteam clone</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="https://www.youtube.com/watch?v=dwlroKgd7Dw" target="_blank">API restcountries</a>
@@ -96,7 +99,7 @@
 
     <div class="container-fluid">
         <h1 class="my-5">Technologies section</h1>
-        <div class="row justify-content-center">
+        <div class="row">
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
                 <div class="flip__card">
                     <div class="card__front">
@@ -181,6 +184,26 @@
                             <li class="list-group-item">Resolve merge conflicts and maintain clean commit histories.</li>
                             <li class="list-group-item">Use GitHub features like issues, projects, and actions to organize and automate work.</li>
                             <li class="list-group-item">Safely deploy, back up, and track changes across multiple environments.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
+                <div class="flip__card">
+                    <div class="card__front">
+                        <img src="img/Sass.svg.png" alt="sass" class="img__presentation w-100">
+                        <div class="card__data bg-EF88AD text-light">
+                            <h3 class="fw-bold">Sass</h3>
+                            <p class="fw-bold">I am a junior developer with no formal professional experience, but I have built several personal projects where I have applied modern web technologies. I have hands-on experience using Sass as part of my...<span class="d-none">workflow, allowing me to write cleaner, scalable, and more maintainable styles.</span></p>
+                        </div>
+                    </div>
+                    <div class="card__back bg-EF88AD text-light">
+                        <ul class="list-group-flush px-0 fw-bold">
+                            <li class="list-group-item">Working with Sass control directives like @if, @each, and @for for dynamic styling.</li>
+                            <li class="list-group-item">Extending selectors (@extend) to share common style patterns.</li>
+                            <li class="list-group-item">Mixins and functions to create reusable logic and reduce code repetition.</li>
+                            <li class="list-group-item">Using imports / @use and @forward to build scalable style architectures.</li>
+                            <li class="list-group-item">Using variables to store reusable values such as colors, fonts, and spacing.</li>
                         </ul>
                     </div>
                 </div>
@@ -290,6 +313,22 @@
                     <div class="card w-75 mx-auto border-0 min-h-280 justify-content-center">
                         <div class="row align-items-xl-center">
                             <div class="col-xl-4">
+                                <img src="img/Sass.svg.png" class="img__presentation d-block mx-auto" alt="sass">
+                            </div>
+                            <div class="col-xl-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sass</h5>
+                                    <p class="card-text">I am a junior developer with no formal professional experience, but I have built several personal projects where I have applied modern web technologies. I have hands-on experience using Sass as part of my workflow, allowing me to write cleaner, scalable, and more maintainable styles.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item bg-body">
+                    <div class="card w-75 mx-auto border-0 min-h-280 justify-content-center">
+                        <div class="row align-items-xl-center">
+                            <div class="col-xl-4">
                                 <img src="img/javascript.png" class="img__presentation gray__img d-block mx-auto" alt="javascript">
                             </div>
                             <div class="col-xl-8">
@@ -339,15 +378,29 @@
                     <div class="col-lg-8">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-12">
-                                    <button type="button" class="btn btn-warning w-50 mt-5 fw-bold mx-auto d-block" id="activateAnimation">Activate animation</button>
+                                <div class="col-sm-6">
+                                    <button type="button" class="btn btn-warning mt-5 fw-bold w-100 mx-auto d-block" id="activateAnimation">Activate animation</button>
                                 </div>
-                                <div class="col-12 col-sm-6">
+                                <div class="col-sm-6">
+                                    <div class="progress my-5 shadow-lg" style="height: 40px;">
+                                        <div
+                                            class="progress-bar fw-bold bg-danger progress-bar-striped"
+                                            role="progressbar"
+                                            aria-valuenow="70"
+                                            aria-valuemin="0"
+                                            aria-valuemax="100"
+                                            style="width: 70%;"
+                                        >
+                                        Sass - 70%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
                                     <div class="progress my-5 shadow-lg" style="height: 40px;">
                                         <div
                                             class="progress-bar fw-bold bg-success progress-bar-striped"
                                             role="progressbar"
-                                            aria-valuenow="75"
+                                            aria-valuenow="90"
                                             aria-valuemin="0"
                                             aria-valuemax="100"
                                             style="width: 90%;"
@@ -356,12 +409,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-6">
+                                <div class="col-sm-6">
                                     <div class="progress my-5 shadow-lg" style="height: 40px;">
                                         <div
                                             class="progress-bar bg-456882 fw-bold progress-bar-striped"
                                             role="progressbar"
-                                            aria-valuenow="75"
+                                            aria-valuenow="60"
                                             aria-valuemin="0"
                                             aria-valuemax="100"
                                             style="width: 60%;"
@@ -370,12 +423,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-6">
+                                <div class="col-sm-6">
                                     <div class="progress my-5 shadow-lg" style="height: 40px;">
                                         <div
                                             class="progress-bar bg-3B0270 fw-bold progress-bar-striped"
                                             role="progressbar"
-                                            aria-valuenow="75"
+                                            aria-valuenow="70"
                                             aria-valuemin="0"
                                             aria-valuemax="100"
                                             style="width: 70%;"
@@ -384,12 +437,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-6">
+                                <div class="col-sm-6">
                                     <div class="progress my-5 shadow-lg" style="height: 40px;">
                                         <div
                                             class="progress-bar bg-black fw-bold progress-bar-striped"
                                             role="progressbar"
-                                            aria-valuenow="75"
+                                            aria-valuenow="95"
                                             aria-valuemin="0"
                                             aria-valuemax="100"
                                             style="width: 95%;"
@@ -412,11 +465,19 @@
                     <img src="img/django&bootstrap.png" class="card-img-top youtube__img" alt="django&bootstrap">
                     <div class="card-body">
                         <h5 class="card-title">Ecommerce</h5>
-                        <p class="card-text">The most comprehensive project so far, involving a frontend client built with Bootstrap, as well as several features that interact with a backend server to handle all the CRUD requests...<span class="d-none">Additionally, it includes an Excel report with graphical data analysis and large datasets grouped into formatted tables</span></p>
+                        <p class="card-text">The most comprehensive project so far, involving a frontend client built with Bootstrap<span class="d-none">as well as several features that interact with a backend server to handle all the CRUD requests. Additionally, it includes an Excel report with graphical data analysis and large datasets grouped into formatted tables</span>...</p>
                     </div>
-                    <div class="card-body">
-                        <a href="https://www.youtube.com/watch?v=LYhuUxPeQl4" class="card-link" target="_blank">Card link</a>
-                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a href="https://www.youtube.com/watch?v=LYhuUxPeQl4" class="card-link" target="_blank">Demostrative video</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://github.com/JohnCard/Online-ecommerce" class="card-link" target="_blank">Github repository</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://online-ecommerce-ten.vercel.app/" class="card-link" target="_blank">Online web</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4 col-xl-3">
@@ -424,11 +485,16 @@
                     <img src="img/rest__countries.png" class="card-img-top youtube__img" alt="django_rest_framework">
                     <div class="card-body">
                         <h5 class="card-title">Consume external server</h5>
-                        <p class="card-text">In this project, I built a complete API from scratch using Django Rest Framework to consume the external REST Countries service and extract metadata about all the countries in the world.<span class="d-none">The project includes data analysis, export to Excel reports with professional table designs, basic CRUD operations, and customized views.</span></p>
+                        <p class="card-text">In this project, I built a complete API from scratch using Django Rest Framework to consume the external REST Countries service and...<span class="d-none">extract metadata about all the countries in the world. The project includes data analysis, export to Excel reports with professional table designs, basic CRUD operations, and customized views.</span></p>
                     </div>
-                    <div class="card-body">
-                        <a href="https://www.youtube.com/watch?v=dwlroKgd7Dw" class="card-link" target="_blank">Card link</a>
-                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a href="https://www.youtube.com/watch?v=dwlroKgd7Dw" class="card-link" target="_blank">Demostrative video</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://github.com/JohnCard/Backend---codeandote" class="card-link" target="_blank">Github repository</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4 col-xl-3">
@@ -436,11 +502,16 @@
                     <img src="img/bootstrap__project.png" class="card-img-top youtube__img" alt="bootstrap">
                     <div class="card-body">
                         <h5 class="card-title">Bootstrap project</h5>
-                        <p class="card-text">My most relevant project as a beginner Bootstrap interface designer, fully focused on mastering responsive layouts and creating user-friendly experiences while aiming to achieve the highest...<span class="d-none">level of professional design possible.</span></p>
+                        <p class="card-text">My most relevant project as a beginner Bootstrap interface designer, fully focused on mastering responsive layouts and creating user-friendly...<span class="d-none">experiences while aiming to achieve the highest level of professional design possible.</span></p>
                     </div>
-                    <div class="card-body">
-                        <a href="https://johncard.github.io/EDteam---replica/" class="card-link" target="_blank">Card link</a>
-                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a href="https://johncard.github.io/EDteam---replica/" class="card-link" target="_blank">Edteam copy link</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://github.com/JohnCard/EDteam---replica" class="card-link" target="_blank">Github repository</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4 col-xl-3">
@@ -451,7 +522,7 @@
                         <p class="card-text">A playlist focused on HTML interfaces built with the Django framework, demonstrating mastery of Python logic combined with proper data manipulation to create repetitive components and HTML structures...<span class="d-none">with a very basic CSS design.</span></p>
                     </div>
                     <div class="card-body">
-                        <a href="https://www.youtube.com/playlist?list=PLnLgdcegJMsI08zM_Nw2rMR9Zp27aFbGu" class="card-link" target="_blank">Card link</a>
+                        <a href="https://www.youtube.com/playlist?list=PLnLgdcegJMsI08zM_Nw2rMR9Zp27aFbGu" class="card-link" target="_blank">Playlist</a>
                     </div>
                 </div>
             </div>
@@ -463,7 +534,7 @@
                         <p class="card-text">A playlist focused on showcasing projects built with Django Rest Framework, highlighting the skills acquired after a full year of professional experience as a backend server developer,<span class="d-none">while openly presenting myself as an expert in the field and in the mastery of Django Rest Framework</span>...</p>
                     </div>
                     <div class="card-body">
-                        <a href="https://www.youtube.com/playlist?list=PLnLgdcegJMsIGq5bDF6Y0RMRDn7WqajnD" class="card-link" target="_blank">Card link</a>
+                        <a href="https://www.youtube.com/playlist?list=PLnLgdcegJMsIGq5bDF6Y0RMRDn7WqajnD" class="card-link" target="_blank">Playlist</a>
                     </div>
                 </div>
             </div>
@@ -472,24 +543,24 @@
         <h2 class="mt-5">Form section</h2>
         <div class="row">
             <form>
-                <div class="row my-5 px-3 px-md-5 col-md-10 mx-md-auto">
-                    <div class="col-12 mt-3 col-sm-6">
+                <div class="row my-5 px-3 px-md-0 col-md-10 mx-md-auto">
+                    <div class="mt-3 col-sm-6">
                         <label for="name" class="form-label">Name</label>
                         <input type="text" id="name" class="form-control" name="name">
                     </div>
-                    <div class="col-12 mt-3 col-sm-6">
+                    <div class="mt-3 col-sm-6">
                         <label for="lastname" class="form-label">Lastname</label>
                         <input type="text" id="lastname" class="form-control" name="lastname">
                     </div>
-                    <div class="col-12 mt-3 col-sm-6">
+                    <div class="mt-3 col-sm-6">
                         <label for="email" class="form-label">Email</label>
                         <input type="email" id="email" class="form-control" name="email">
                     </div>
-                    <div class="col-12 mt-3 col-sm-6">
+                    <div class="mt-3 col-sm-6">
                         <label for="tel" class="form-label">Contact</label>
                         <input type="tel" class="form-control" id="tel" name="tel">
                     </div>
-                    <div class="col-12 mt-3 col-sm-6">
+                    <div class="mt-3 col-sm-6">
                         <label for="country" class="form-label">Country</label>
                         <select name="country" id="country" class="form-select">
                             <option value="argentina">Argentina</option>
@@ -499,12 +570,15 @@
                             <option value="eu">Estados Unidos</option>
                         </select>
                     </div>
-                    <div class="col-12 mt-3 col-sm-6">
+                    <div class="mt-3 col-sm-6">
                         <label for="message" class="form-label">Message</label>
                         <textarea name="message" id="message" class="form-control" rows="4"></textarea>
                     </div>
-                    <div class="col-12 d-flex justify-content-center mt-3">
+                    <div class="mt-3 col-md-6">
                         <button type="button" class="btn btn-primary col-12">Send</button>
+                    </div>
+                    <div class="mt-3 col-md-6">
+                        <a href="media/Juan Carlos Sánchez Martínez - Resume.pdf" download class="btn btn-secondary d-block">Curriculum</a>
                     </div>
                 </div>
             </form>

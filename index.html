@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
     <link rel="icon" href="img/dj.png" type="image/png">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/sass.css">
     <link rel="stylesheet" href="style/colors&background_colors.css">
@@ -88,10 +88,9 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">About me</h5>
-                        <p class="card-text">Hi, I’m Juan Carlos. I’m 23 years old and I’m currently focused on expanding my knowledge in new technologies to strengthen my skills as both a frontend and backend developer.
-                        Although my main specialization is backend development using Django and Django Rest Framework, I am currently dedicating my time to frontend development, especially in interface design with Bootstrap. Right now, I’m focused on mastering JavaScript, and afterward, I plan to complete my learning path with React, and possibly explore Material UI to create more professional user interfaces.
-                        In addition, I’m actively seeking employment and can offer one year of professional experience as a backend developer, mainly working with APIs built in Django.</p>
-                        <p class="card-text"><small class="text-body-secondary">Last updated - right now</small></p>
+                        <p class="card-text">Backend-focused developer with one year of professional experience building scalable APIs using Django REST Framework. I specialize in designing custom business logic, advanced data filtering systems, and robust CRUD architectures tailored to real-world business needs.
+                        My work includes large-scale data processing from Excel sources, external API integrations (INEGI, Rest Countries, Contalink), and Firebase connectivity, always prioritizing clean architecture, maintainable code, and performance.
+                        I am driven by solving complex data problems and transforming requirements into reliable, production-ready backend systems.</p>
                     </div>
                 </div>
             </div>
@@ -99,15 +98,15 @@
     </div>
 
     <div class="container-fluid">
-        <h2 class="my-5">Technologies section</h2>
+        <h2 class="my-5">Flip card section</h2>
         <div class="row">
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
                 <div class="flip__card">
                     <div class="card__front">
-                        <img src="img/django_rest_framework.png" alt="django rest_framework" class="img-fluid p-3 img__presentation">
+                        <img src="img/django_rest_framework.png" alt="django rest_framework" class="img-fluid py-3 img__presentation">
                         <div class="card__data bg-bone">
-                            <h3>Django rest framework</h3>
-                            <p>Django REST Framework (DRF) is a powerful and flexible toolkit built on top of Django for creating Web APIs. It simplifies tasks like serialization,<span class="d-none"> authentication, permissions, and request/response handling. DRF provides class-based views, viewsets, and routers that make building CRUD endpoints fast and organized. It also includes powerful features such as browsable API views, pagination, throttling, filtering, and easy integration with Django’s ORM. Overall, DRF allows developers to create clean, secure, and scalable RESTful APIs with minimal boilerplate.</span>...</p>
+                            <h3 class="h-70px">Django rest framework</h3>
+                            <p>Backend Developer with one year of professional experience building scalable APIs using Django REST Framework. I develop fully customizable backend solutions for frontend clients, implementing complex business logic for advanced filtering, updating, deleting, and creating data (CRUD operations). Experienced in bulk data generation for testing environments, large Excel data processing using openpyxl (including structured tables), and data analysis with matplotlib for trend visualization. I have integrated external APIs such as INEGI, Rest Countries, and Contalink into internal systems, as well as worked with external databases like Firebase using custom-built Python string-based commands.</p>
                         </div>
                     </div>
                     <div class="card__back bg-bone">
@@ -127,14 +126,34 @@
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
                 <div class="flip__card">
                     <div class="card__front">
-                        <img src="img/bootstrap.png" alt="bootstrap" class="img__presentation bg-AD49E1 w-100">
-                        <div class="card__data bg-7A1CAC color-EBD3F8">
-                            <h3 class="fw-bold">Bootstrap</h3>
-                            <p class="fw-bold">I also recently completed an introductory web design course to improve the styling of my interfaces using basic CSS, as well as the Bootstrap framework, which helps speed up my projects and gives me<span class="d-none">more time to focus on backend structures.</span>...</p>
+                        <img src="img/Django_Logo.png" alt="django" class="img-fluid img__presentation textce mx-auto d-block">
+                        <div class="card__data bg-bone">
+                            <h3 class="h-70px">Django</h3>
+                            <p>I have strong technical expertise using Django to develop dynamic HTML templates that interact directly with local and external databases. I seamlessly integrate these templates with Bootstrap and JavaScript to deliver an enhanced user experience, implementing efficient data filtering, creation, updating, and deletion operations. I am proficient in class-based views for CRUD operations, as well as in designing highly customized views with specific business logic to address complex data interaction requirements across different interfaces.</p>
                         </div>
                     </div>
-                    <div class="card__back bg-7A1CAC">
-                        <ul class="list-group-flush fw-bold px-0">
+                    <div class="card__back bg-bone">
+                        <h4>Django template services</h4>
+                        <ul class="list-group-flush px-0">
+                            <li class="list-group-item">Seamless integration of templates with Bootstrap and JavaScript to enhance user experience.</li>
+                            <li class="list-group-item">Proficiency in class-based views for structured and maintainable CRUD operations.</li>
+                            <li class="list-group-item">Development of custom views with specific business logic to solve complex data interaction requirements across multiple interfaces.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
+                <div class="flip__card">
+                    <div class="card__front">
+                        <img src="img/bootstrap.png" alt="bootstrap" class="img__presentation bg-AD49E1 w-100">
+                        <div class="card__data bg-bootstrap color-EBD3F8">
+                            <h3 class="fw-bold h-70px text-light">Bootstrap</h3>
+                            <p class="fw-bold text-light">Frontend interface designer using Bootstrap for rapid web development. Skilled in combining Bootstrap components with JavaScript to build responsive and backend-connected interfaces from scratch. Strong knowledge of core Bootstrap components and layout systems.</p>
+                        </div>
+                    </div>
+                    <div class="card__back bg-bootstrap">
+                        <h4 class="text-light fw-bold">Bootstrap services</h4>
+                        <ul class="list-group-flush fw-bold px-0 text-light">
                             <li class="list-group-item color-EBD3F8">Responsive by default</li>
                             <li class="list-group-item color-EBD3F8">Fast development</li>
                             <li class="list-group-item color-EBD3F8">Consistent design</li>
@@ -152,53 +171,14 @@
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
                 <div class="flip__card">
                     <div class="card__front">
-                        <img src="img/css.png" alt="css" class="img__presentation w-100">
-                        <div class="card__data bg-6EACDA text-light">
-                            <h3 class="fw-bold">Intermediate CSS</h3>
-                            <p>I have an intermediate level of creating CSS designs from scratch. For now, I still rely heavily on AI tools to research, solve questions, and guide me through designs that I know I can’t create using<span class="d-none"> only Bootstrap’s interfaces or documentation.</span>...</p>
+                        <img src="img/javascript.png" alt="sass" class="img__presentation w-100 border-bottom border-black">
+                        <div class="card__data bg-js">
+                            <h3 class="fw-bold h-70px">JavaScript</h3>
+                            <p class="fw-bold">Junior-level JavaScript developer experienced in API consumption, dynamic template creation using string-based rendering, and building basic simulators. Familiar with libraries such as SweetAlert and Toastify for user interaction and notifications. Primarily focused on integration with Django REST Framework backends.</p>
                         </div>
                     </div>
-                    <div class="card__back bg-6EACDA text-light">
-                        <ul class="list-group-flush px-0">
-                            <li class="list-group-item">Able to create layouts from scratch using Flexbox and Grid.</li>
-                            <li class="list-group-item">Comfortable building responsive designs for different screen sizes.</li>
-                            <li class="list-group-item">Can style complex components with custom animations and transitions.</li>
-                            <li class="list-group-item">Understands CSS variables, specificity, and inheritance.</li>
-                            <li class="list-group-item">Can work with pseudo-classes and pseudo-elements effectively.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
-                <div class="flip__card">
-                    <div class="card__front">
-                        <img src="img/git.webp" alt="git & github" class="img__presentation w-100">
-                        <div class="card__data bg-dark text-light">
-                            <h3 class="fw-bold">Git & github handling</h3>
-                            <p class="fw-bold">Someone skilled in Git and GitHub can efficiently manage version control, create and organize branches, and collaborate through pull requests and code reviews... <span class="d-none">They can resolve merge conflicts, maintain a clean and understandable commit history, and use GitHub tools like issues, projects, and actions to structure work and automate workflows. They also know how to deploy, back up, and track changes across different environments with confidence.</span></p>
-                        </div>
-                    </div>
-                    <div class="card__back bg-dark text-light">
-                        <ul class="list-group-flush px-0 fw-bold">
-                            <li class="list-group-item">Efficiently manage version control for projects using branches, commits, and merges.</li>
-                            <li class="list-group-item">Handle pull requests, code reviews, and collaboration workflows.</li>
-                            <li class="list-group-item">Resolve merge conflicts and maintain clean commit histories.</li>
-                            <li class="list-group-item">Use GitHub features like issues, projects, and actions to organize and automate work.</li>
-                            <li class="list-group-item">Safely deploy, back up, and track changes across multiple environments.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
-                <div class="flip__card">
-                    <div class="card__front">
-                        <img src="img/Sass.svg.png" alt="sass" class="img__presentation w-100">
-                        <div class="card__data bg-EF88AD text-light">
-                            <h3 class="fw-bold">Sass</h3>
-                            <p class="fw-bold">I am a junior developer with no formal professional experience, but I have built several personal projects where I have applied modern web technologies. I have hands-on experience using Sass as <span class="d-none">part of my workflow, allowing me to write cleaner, scalable, and more maintainable styles.</span>...</p>
-                        </div>
-                    </div>
-                    <div class="card__back bg-EF88AD text-light">
+                    <div class="card__back bg-js">
+                        <h4 class="fw-bold">JS services</h4>
                         <ul class="list-group-flush px-0 fw-bold">
                             <li class="list-group-item">Working with Sass control directives like @if, @each, and @for for dynamic styling.</li>
                             <li class="list-group-item">Extending selectors (@extend) to share common style patterns.</li>
@@ -217,20 +197,6 @@
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
                 <div class="flip__card">
                     <div class="card__front">
-                        <img src="img/javascript.png" alt="JavaScript" class="img__presentation w-100 gray__img">
-                        <div class="card__data">
-                            <h3 class="fw-bold">JavaScript</h3>
-                            <p class="fw-bold">Coming soon...</p>
-                        </div>
-                    </div>
-                    <div class="card__back ">
-                        <h4>...</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-5">
-                <div class="flip__card">
-                    <div class="card__front">
                         <img src="img/React.jpg" alt="react" class="img__presentation gray__img w-100">
                         <div class="card__data bg-002455">
                             <h3 class="fw-bold text-info">React</h3>
@@ -245,19 +211,18 @@
         </div>
 
         <h2>Slideshow</h2>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-dark my-5 shadow-lg">
+        <div id="carouselExample" class="carousel slide carousel-dark my-5 shadow-lg">
             <div class="carousel-inner">
                 <div class="carousel-item bg-body active">
                     <div class="card w-75 mx-auto border-0 min-h-280 justify-content-center">
                         <div class="row align-items-xl-center">
                             <div class="col-xl-4">
-                                <img src="img/django.png" class="img__presentation mx-auto d-block" alt="django">
+                                <img src="img/django_rest_framework.png" class="img__presentation mx-auto d-block p-3" alt="django">
                             </div>
                             <div class="col-xl-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Django</h5>
-                                    <p class="card-text">Developer with up to one year of experience in Django Rest Framework, able to build and maintain RESTful APIs, define models and serializers for data handling, implement basic authentication and permissions, create custom views and viewsets for CRUD operations, handle query parameters for filtering and pagination, write simple tests for API functionality, and integrate APIs with frontend applications.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated - one day ago</small></p>
+                                    <h5 class="card-title">rest framework</h5>
+                                    <p class="card-text">Backend Developer with one year of professional experience building scalable APIs using Django REST Framework. I develop fully customizable backend solutions for frontend clients, implementing complex business logic for advanced filtering, updating, deleting, and creating data (CRUD operations). Experienced in bulk data generation for testing environments, large Excel data processing using openpyxl (including structured tables), and data analysis with matplotlib for trend visualization. I have integrated external APIs such as INEGI, Rest Countries, and Contalink into internal systems, as well as worked with external databases like Firebase using custom-built Python string-based commands.</p>
                                 </div>
                             </div>
                         </div>
@@ -267,13 +232,12 @@
                     <div class="card w-75 mx-auto border-0 min-h-280 justify-content-center">
                         <div class="row align-items-xl-center">
                             <div class="col-xl-4">
-                                <img src="img/git.webp" class="img__presentation d-block mx-auto" alt="git">
+                                <img src="img/django.png" class="img__presentation mx-auto d-block" alt="django">
                             </div>
                             <div class="col-xl-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Git & github</h5>
-                                    <p class="card-text">I’ve been working with Git and GitHub for about a year and a half. I’m comfortable using Git for version control, managing branches, and resolving merge conflicts. I regularly commit changes, create pull requests, and follow best practices for writing clear commit messages. On GitHub, I collaborate with teams, review pull requests, and track issues for bugs and features. I also manage repositories, forks and clones.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated - one day ago</small></p>
+                                    <h5 class="card-title">Django</h5>
+                                    <p class="card-text">I have strong technical expertise using Django to develop dynamic HTML templates that interact directly with local and external databases. I seamlessly integrate these templates with Bootstrap and JavaScript to deliver an enhanced user experience, implementing efficient data filtering, creation, updating, and deletion operations. I am proficient in class-based views for CRUD operations, as well as in designing highly customized views with specific business logic to address complex data interaction requirements across different interfaces.</p>
                                 </div>
                             </div>
                         </div>
@@ -289,39 +253,6 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Bootstrap</h5>
                                     <p class="card-text">After my introductory web development course, I’ve spent about three months working with Bootstrap. I’ve used its grid system to create responsive layouts and incorporated pre-built components like buttons, navbars, and modals. I’ve also customized Bootstrap’s default styles with my own CSS to fit specific design needs. While I’m still learning more about Bootstrap’s JavaScript components.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated - one day ago</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item bg-body">
-                    <div class="card w-75 mx-auto border-0 min-h-280 justify-content-center">
-                        <div class="row align-items-xl-center">
-                            <div class="col-xl-4">
-                                <img src="img/css.png" class="img__presentation d-block mx-auto" alt="css">
-                            </div>
-                            <div class="col-xl-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Intermediate CSS</h5>
-                                    <p class="card-text">I’ve been using CSS for about three months after completing an introductory web development course. During this time, I’ve learned the basics of styling web pages, including typography, colors, spacing, and layout techniques like Flexbox and Grid. I’ve also worked with media queries to make designs responsive across different devices. Although I'm still getting comfortable with more advanced concepts.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item bg-body">
-                    <div class="card w-75 mx-auto border-0 min-h-280 justify-content-center">
-                        <div class="row align-items-xl-center">
-                            <div class="col-xl-4">
-                                <img src="img/Sass.svg.png" class="img__presentation d-block mx-auto" alt="sass">
-                            </div>
-                            <div class="col-xl-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Sass</h5>
-                                    <p class="card-text">I am a junior developer with no formal professional experience, but I have built several personal projects where I have applied modern web technologies. I have hands-on experience using Sass as part of my workflow, allowing me to write cleaner, scalable, and more maintainable styles.</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
                         </div>
@@ -336,8 +267,7 @@
                             <div class="col-xl-8">
                                 <div class="card-body">
                                     <h5 class="card-title">JavaScript</h5>
-                                    <p class="card-text">...</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">Junior-level JavaScript developer experienced in API consumption, dynamic template creation using string-based rendering, and building basic simulators. Familiar with libraries such as SweetAlert and Toastify for user interaction and notifications. Primarily focused on integration with Django REST Framework backends.</p>
                                 </div>
                             </div>
                         </div>
@@ -352,19 +282,18 @@
                             <div class="col-xl-8">
                                 <div class="card-body">
                                     <h5 class="card-title">React</h5>
-                                    <p class="card-text">...</p>
-                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">Coming soon...</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -386,20 +315,6 @@
                                 <div class="col-sm-6">
                                     <div class="progress my-5 shadow-lg" style="height: 40px;">
                                         <div
-                                            class="progress-bar fw-bold bg-danger progress-bar-striped"
-                                            role="progressbar"
-                                            aria-valuenow="70"
-                                            aria-valuemin="0"
-                                            aria-valuemax="100"
-                                            style="width: 70%;"
-                                        >
-                                        Sass - 70%
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="progress my-5 shadow-lg" style="height: 40px;">
-                                        <div
                                             class="progress-bar fw-bold bg-success progress-bar-striped"
                                             role="progressbar"
                                             aria-valuenow="90"
@@ -414,14 +329,14 @@
                                 <div class="col-sm-6">
                                     <div class="progress my-5 shadow-lg" style="height: 40px;">
                                         <div
-                                            class="progress-bar bg-456882 fw-bold progress-bar-striped"
+                                            class="progress-bar fw-bold bg-success progress-bar-striped"
                                             role="progressbar"
-                                            aria-valuenow="60"
+                                            aria-valuenow="80"
                                             aria-valuemin="0"
                                             aria-valuemax="100"
-                                            style="width: 60%;"
+                                            style="width: 80%;"
                                         >
-                                        CSS - 60%
+                                        Django - 80%
                                         </div>
                                     </div>
                                 </div>
@@ -430,26 +345,26 @@
                                         <div
                                             class="progress-bar bg-3B0270 fw-bold progress-bar-striped"
                                             role="progressbar"
-                                            aria-valuenow="70"
+                                            aria-valuenow="80"
                                             aria-valuemin="0"
                                             aria-valuemax="100"
-                                            style="width: 70%;"
+                                            style="width: 80%;"
                                         >
-                                        Bootstrap - 70%
+                                        Bootstrap - 80%
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="progress my-5 shadow-lg" style="height: 40px;">
                                         <div
-                                            class="progress-bar bg-black fw-bold progress-bar-striped"
+                                            class="progress-bar bg-warning fw-bold progress-bar-striped text-dark"
                                             role="progressbar"
-                                            aria-valuenow="95"
+                                            aria-valuenow="85"
                                             aria-valuemin="0"
                                             aria-valuemax="100"
-                                            style="width: 95%;"
+                                            style="width: 85%;"
                                         >
-                                        Git & github - 95%
+                                        JavaScript - 85%
                                         </div>
                                     </div>
                                 </div>
@@ -467,7 +382,7 @@
                     <img src="img/django&bootstrap.png" class="card-img-top youtube__img" alt="django&bootstrap">
                     <div class="card-body">
                         <h5 class="card-title">Ecommerce</h5>
-                        <p class="card-text">The most comprehensive project so far, involving a <span class="d-none">frontend client builtwith Bootstrap as well as several features that interact with a backend server to handle all the CRUD requests. Additionally, it includes an Excel report with graphical data analysis and large datasets grouped into formatted tables</span>...</p>
+                        <p class="card-text">The most comprehensive project so far, involving a frontend client builtwith Bootstrap as well as several features that interact with a backend server to handle all the CRUD requests. Additionally, it includes an Excel report with graphical data analysis and large datasets grouped into formatted tables</p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -490,7 +405,7 @@
                     <img src="img/rest__countries.png" class="card-img-top youtube__img" alt="django_rest_framework">
                     <div class="card-body">
                         <h5 class="card-title">Consume external server</h5>
-                        <p class="card-text">In this project, I built a complete API from scratch using Django Rest Framework to consume the external REST Countries service and...<span class="d-none">extract metadata about all the countries in the world. The project includes data analysis, export to Excel reports with professional table designs, basic CRUD operations, and customized views.</span></p>
+                        <p class="card-text">In this project, I built a complete API from scratch using Django Rest Framework to consume the external REST Countries service and extract metadata about all the countries in the world. The project includes data analysis, export to Excel reports with professional table designs, basic CRUD operations, and customized views.</p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -507,7 +422,7 @@
                     <img src="img/bootstrap__project.png" class="card-img-top youtube__img" alt="bootstrap">
                     <div class="card-body">
                         <h5 class="card-title">Bootstrap project</h5>
-                        <p class="card-text">My most relevant project as a beginner Bootstrap interface designer, fully focused on mastering responsive layouts and creating user-friendly...<span class="d-none">experiences while aiming to achieve the highest level of professional design possible.</span></p>
+                        <p class="card-text">My most relevant project as a beginner Bootstrap interface designer, fully focused on mastering responsive layouts and creating user-friendly experiences while aiming to achieve the highest level of professional design possible.</p>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -524,7 +439,7 @@
                     <img src="img/django.png" class="card-img-top youtube__img" alt="django_rest_framework">
                     <div class="card-body">
                         <h5 class="card-title">Django</h5>
-                        <p class="card-text">A playlist focused on HTML interfaces built with the Django framework, demonstrating mastery of Python logic combined with proper data manipulation to create <span class="d-none">repetitive components and HTML structures with a very basic CSS design.</span>...</p>
+                        <p class="card-text">A playlist focused on HTML interfaces built with the Django framework, demonstrating mastery of Python logic combined with proper data manipulation to create repetitive components and HTML structures with a very basic CSS design</p>
                     </div>
                     <div class="card-body">
                         <a href="https://www.youtube.com/playlist?list=PLnLgdcegJMsI08zM_Nw2rMR9Zp27aFbGu" class="card-link" target="_blank">Playlist</a>
@@ -536,7 +451,7 @@
                     <img src="img/django_rest_framework.png" class="card-img-top pt-3 youtube__img" alt="django_rest_framework">
                     <div class="card-body">
                         <h5 class="card-title">Django rest_framework</h5>
-                        <p class="card-text">A playlist focused on showcasing projects built with Django Rest Framework, highlighting the skills acquired after a full year of professional experience <span class="d-none">as a backend server developer, while openly presenting myself as an expert in the field and in the mastery of Django Rest Framework</span>...</p>
+                        <p class="card-text">A playlist focused on showcasing projects built with Django Rest Framework, highlighting the skills acquired after a full year of professional experience as a backend server developer, while openly presenting myself as an expert in the field and in the mastery of Django Rest Framework</p>
                     </div>
                     <div class="card-body">
                         <a href="https://www.youtube.com/playlist?list=PLnLgdcegJMsIGq5bDF6Y0RMRDn7WqajnD" class="card-link" target="_blank">Playlist</a>
@@ -594,6 +509,9 @@
                     <div class="mt-3 col-md-6">
                         <a href="media/english_8.pdf" download class="btn btn-primary d-block">Open english certificate</a>
                     </div>
+                    <div class="mt-3 col-md-6">
+                        <a href="media/JS certificate.png" download class="btn btn-secondary d-block">Java Script certificate</a>
+                    </div>
                 </div>
             </form>
         </div>
@@ -618,7 +536,7 @@
             </ul>
         </footer>
     </div>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src="script/script.js"></script>
 </body>
 </html>

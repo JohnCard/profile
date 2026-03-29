@@ -1,5 +1,85 @@
-Personal web portfolio developed to showcase my professional work as a Backend Developer specialized in Django and Django REST Framework.
+# 👨‍💻 Juan Carlos Sánchez Martínez — Developer Portfolio
 
-The website presents a selection of projects, including detailed descriptions, demo videos hosted on YouTube, and direct links to GitHub repositories, focusing on backend development, API design, and real-world use cases.
+A personal developer portfolio website showcasing professional experience, technical skills, and projects. Built with **Bootstrap 5**, **Sass**, and **vanilla JavaScript**, featuring interactive flip cards, a project carousel, and downloadable resources.
 
-It also provides an overview of my professional experience, technical stack, and approach as a self-taught developer with one year of professional experience, as well as my ability to build and integrate frontend interfaces using Bootstrap and JavaScript to consume backend services.
+### 🔗 [Live Demo](https://profile-orpin-kappa.vercel.app)
+
+---
+
+### Tech Stack
+
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-SCSS-CC6699?style=flat-square&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-Semantic-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Custom-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+---
+
+### Features
+
+- 🃏 **Interactive Flip Cards** — CSS 3D flip animations showcasing skills (Django REST, Django, Bootstrap, JavaScript)
+- 🎠 **Project Carousel** — Bootstrap carousel with project descriptions and images
+- 👤 **About Me Section** — Professional profile card with photo and bio
+- 💼 **Experience Showcase** — Detailed descriptions of backend development expertise
+- 📎 **Downloadable Resources** — Resume (PDF), certificates, and Excel reports
+- 📱 **Fully Responsive** — Mobile-first design with Bootstrap grid system
+- 🔗 **External Links** — Direct links to GitHub repos, YouTube demos, and LinkedIn
+- 🎥 **YouTube Embeds** — Project demo videos embedded directly in the portfolio
+
+---
+
+### Project Structure
+
+```
+profile/
+├── index.html                              # Main portfolio page
+├── sass/
+│   └── sass.scss                           # Custom Sass source
+├── style/
+│   ├── style.css                           # Main stylesheet
+│   ├── sass.css                            # Compiled Sass output
+│   ├── sass.css.map                        # Source map
+│   └── colors&background_colors.css         # Custom color utilities
+├── script/
+│   └── script.js                           # Theme toggle & interactions
+├── img/                                    # Project screenshots & skill logos
+└── media/                                  # Resume PDF, certificates, reports
+```
+
+---
+
+### Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/JohnCard/profile.git
+
+# Navigate to the project
+cd profile
+
+# Open in browser
+open index.html
+# Or use a local server:
+npx serve .
+```
+
+No build step required — this is a static site.
+
+### Skills Showcased
+
+| Technology | Proficiency | Context |
+|---|---|---|
+| Django REST Framework | ⭐⭐⭐⭐⭐ | 1 year professional experience |
+| Django | ⭐⭐⭐⭐⭐ | Templates, CBVs, business logic |
+| Bootstrap | ⭐⭐⭐⭐ | Responsive layouts, components |
+| JavaScript | ⭐⭐⭐ | API consumption, DOM manipulation |
+| Sass | ⭐⭐⭐ | Variables, mixins, control directives |
+| React | 🔜 | Learning in progress |
+
+---
+
+### Contact
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/juan-carlos-s%C3%A1nchez-mart%C3%ADnez-ba4026253/)
+- 💻 [GitHub](https://github.com/JohnCard)

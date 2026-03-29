@@ -37,8 +37,10 @@ childrenElements = playlistContainer.children
 for(let div of childrenElements){
     // select card text element located in it´s div parent element
     const cardText = div.querySelector('.card-text')
-    // truncate it´s text content to 210 characters and add "..." at the end.
-    cardText.textContent = cardText.textContent.slice(0, 210) + '...'
+    if(cardText.textContent.length > 210){
+        // truncate it´s text content to 210 characters and add "..." at the end.
+        cardText.textContent = cardText.textContent.slice(0, 210) + '...'
+    }
 }
 
 // extract the button to (de)activate the progress bar animation

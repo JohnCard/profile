@@ -13,6 +13,8 @@ A personal developer portfolio website showcasing professional experience, techn
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-Semantic-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-Custom-1572B6?style=flat-square&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/react-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![MUI](https://img.shields.io/badge/material-MUI-007FFF?style=flat-square&logo=mui&logoColor=white)
 
 ---
 
@@ -25,8 +27,6 @@ A personal developer portfolio website showcasing professional experience, techn
 - 📎 **Downloadable Resources** — Resume (PDF), certificates, and Excel reports
 - 📱 **Fully Responsive** — Mobile-first design with Bootstrap grid system
 - 🔗 **External Links** — Direct links to GitHub repos, YouTube demos, and LinkedIn
-- 🎥 **YouTube Embeds** — Project demo videos embedded directly in the portfolio
-
 ---
 
 ### Project Structure
@@ -47,25 +47,6 @@ profile/
 └── media/                                  # Resume PDF, certificates, reports
 ```
 
----
-
-### Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/JohnCard/profile.git
-
-# Navigate to the project
-cd profile
-
-# Open in browser
-open index.html
-# Or use a local server:
-npx serve .
-```
-
-No build step required — this is a static site.
-
 ### Skills Showcased
 
 | Technology | Proficiency | Context |
@@ -75,7 +56,8 @@ No build step required — this is a static site.
 | Bootstrap | ⭐⭐⭐⭐ | Responsive layouts, components |
 | JavaScript | ⭐⭐⭐ | API consumption, DOM manipulation |
 | Sass | ⭐⭐⭐ | Variables, mixins, control directives |
-| React | 🔜 | Learning in progress |
+| React | ⭐⭐⭐ | Reusable components & good properties handling |
+| MUI | ⭐⭐⭐ | Responsive designs and beauty interfaces |
 
 ---
 
